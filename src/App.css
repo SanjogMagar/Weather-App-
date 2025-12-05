@@ -1,0 +1,81 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-color: #95aeeb;
+  display: flex;
+  justify-content: center;  /* Horizontal center */
+  align-items: center;      /* Vertical center */
+}
+
+
+.weather-app{
+  width: 350px;
+  min-height: 440px;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0px auto;
+}
+
+.city-search{
+  width: 80%;
+}
+
+.city{
+  border-radius: 2px solid rgb(204, 204, 204);
+  outline: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #e5eef0;
+  padding: 6px 30px 6px 30px;
+  transition: width 0.4s ease-in-out;
+  color: #333;
+
+}
+.weather-info{
+  margin-top: 10px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+   gap: 90px;
+   padding-top: 20px;
+}
+
+
+.images {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 8px;               
+  margin: 10px 0;
+}
+
+.images-icon {
+  width: 60px;  /* adjust size as needed */
+  height: 60px;
+}
